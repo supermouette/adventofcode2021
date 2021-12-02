@@ -32,3 +32,6 @@ def countIncrease(array, n=3):
 n = 125
 plt.plot(list(range(1, n)), [countIncrease(lines, i) for i in range(1, n)])
 plt.show()
+
+plt.plot(list(range(len(lines))), lines, 'ro')
+plt.show()
